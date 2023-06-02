@@ -30,6 +30,10 @@ dropZone.on('drop',(e)=>{
     uploadImages(imageFiles);
 })
 
+mainElm.on('click','.image:not(.loader)',(e)=>{
+    e.target.requestFullscreen();
+})
+
 function uploadImages(imageFiles){
     const formData = new FormData();
     imageFiles.forEach(imageFile=>{
@@ -42,17 +46,25 @@ function uploadImages(imageFiles){
     const jqxhr = $.ajax("http://localhost:8080/gallery/images",{
         method: 'POST',
         data: formData,
+        contentType: false,
+        processData: false,
+
 
     });
-    jqxhr.done(()=>{});
+    jqxhr.done((imageUrlList)=>{
+        imageUrlList.forEach((imageUrl)=>{
+            const divElm = $('.image.loader').first();
+            divElm.css('background-image', `url(${imageUrl})`);
+            divElm.empty();
+            divElm.removeClass('loader');
+
+        })
+    });
+    jqxhr.always(() => $('.image.loader').remove());
     jqxhr.fail(()=>{});
 
 
 }
-
-
-
-
 
 loadAllImages();
 
