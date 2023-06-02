@@ -574,15 +574,39 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"8lRBv":[function(require,module,exports) {
-const overlay = $("#overlay");
-const btnUpload = $("#btn-upload");
-btnUpload.on("click", ()=>overlay.removeClass("d-none"));
+const overlay = $("#overlay"), btnUpload = $("#btn-upload"), dropZone = $("#drop-zone");
+btnUpload.on("click", ()=>{
+    overlay.removeClass("d-none");
+});
 overlay.on("click", (e)=>{
     if (e.target === overlay[0]) overlay.addClass("d-none");
 });
 $(document).on("keydown", (e)=>{
     if (e.key === "Escape" && !overlay.hasClass("d-none")) overlay.addClass("d-none");
 });
+dropZone.on("dragover", (e)=>{
+    e.preventDefault();
+});
+dropZone.on("drop", (e)=>{
+    e.preventDefault();
+    alert("dfdfdfdf");
+});
+overlay.on("dragover", (e)=>e.preventDefault());
+overlay.on("drop", (e)=>e.preventDefault());
+loadAllImages();
+function loadAllImages() {
+    const jqxhr = $.ajax("http://localhost:8080/gallery/images");
+    jqxhr.done((imageUrlList)=>{
+        imageUrlList.forEach((imageUrl)=>{
+            const image = $(`<div class="image"></div>`);
+            image.css("background-image", `url(${imageUrl})`);
+            $("main").append(image);
+        });
+    });
+    jqxhr.fail(()=>{
+        alert("Failed to load Images");
+    });
+}
 
 },{}]},["8UT0b","8lRBv"], "8lRBv", "parcelRequire8d29")
 

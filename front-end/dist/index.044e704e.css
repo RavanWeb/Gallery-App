@@ -2,21 +2,65 @@
   width: 100%;
   height: 100vh;
   z-index: 99;
-  background-color: #68b66880;
+  background-color: #778899d1;
   position: fixed;
   top: 0;
   left: 0;
 }
 
 #drop-zone {
-  color: #062515;
+  color: #ffffffe8;
   width: 80%;
   height: 50%;
   text-align: center;
-  background-color: #fff3;
-  border: 30px dashed #070303;
+  background-color: #14336e54;
+  border: 5px dashed #fff;
   border-radius: 10px;
   padding: 15px;
+  transition-property: transform;
+  transition-duration: .5s;
+  transition-timing-function: ease-in-out;
+}
+
+#drop-zone:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+main {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+  display: flex;
+}
+
+main > .image {
+  width: 200px;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  border: 2px solid #1e90ffbf;
+  border-radius: 5px;
+  flex-shrink: 0;
+  transition-property: transform;
+  transition-duration: .5s;
+  transition-timing-function: ease-in-out;
+}
+
+main > .image:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+#camera {
+  fill: #10afe1;
+  margin-bottom: 6px;
+}
+
+#upload-btn {
+  fill: #fff;
+  margin-bottom: 4px;
 }
 
 /*# sourceMappingURL=index.044e704e.css.map */

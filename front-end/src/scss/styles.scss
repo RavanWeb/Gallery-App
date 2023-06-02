@@ -2,24 +2,64 @@
   width: 100%;
   height: 100vh;
   position: fixed;
-  background-color: rgba(104, 182, 104, 0.5);
+  background-color: rgba(119, 136, 153, 0.82);
   top: 0;
   z-index: 99;
   left: 0;
 }
 #drop-zone{
-  color: #062515;
-  border: 30px dashed #070303;
+  color: rgba(255, 255, 255, 0.91);
   width: 80%;
   height: 50%;
   border-radius: 10px;
   padding: 15px;
   text-align: center;
-  background-color: rgb(255,255,255,0.2);
+  background-color: rgba(20, 51, 110, 0.33);
+  border: 5px dashed white;
+
+  transition-property: transform;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
 
 }
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+}
 
-//main>img{
-//  width: ;
-//  background-color: ;
-//}
+main>.image{
+  $size:200px;
+  width:$size ;
+  height:$size;
+  border: 2px solid rgba(30, 144, 255, 0.75);
+  border-radius: 5px;
+  flex-shrink: 0;
+  background-position: center;
+  background-size: cover;
+  transition-property: transform;
+  transition-duration: 500ms;
+  transition-timing-function: ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+  }
+
+}
+#camera{
+  fill: #10afe1;
+  margin-bottom: 6px;
+}
+#upload-btn{
+  fill: white;
+  margin-bottom: 4px;
+}
