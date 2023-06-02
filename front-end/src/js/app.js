@@ -1,4 +1,6 @@
-const overlay = $("#overlay"), btnUpload = $("#btn-upload"),dropZone=$('#drop-zone');
+const overlay = $("#overlay"), mainElm = $('main'), btnUpload = $("#btn-upload"),dropZone=$('#drop-zone');
+const cssLoaderHtml =$(`<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>`);
+
 btnUpload.on("click", () => {
     overlay.removeClass("d-none")
 });
@@ -11,15 +13,31 @@ $(document).on("keydown", (e) => {
     if (e.key === "Escape" && !overlay.hasClass("d-none")) overlay.addClass("d-none")
 })
 
+overlay.on('dragover', (e) => e.preventDefault());
+
+overlay.on('drop', (e) => e.preventDefault());
+
 dropZone.on('dragover',(e)=>{
     e.preventDefault();
 })
+
 dropZone.on('drop',(e)=>{
     e.preventDefault();
-    alert("dfdfdfdf")
+    const droppedFiles = e.originalEvent.dataTransfer.files;
+    const imageFiles = Array.from(droppedFiles).filter(file => file.type.startsWith("image/"));
+    if (!imageFiles.length) return;
+    overlay.addClass('d-none');
+    uploadImages(imageFiles);
 })
-overlay.on('dragover', (e) => e.preventDefault());
-overlay.on('drop', (e) => e.preventDefault());
+
+function uploadImages(imageFiles){
+    imageFiles.forEach(imageFile=>{
+        const imgDivElm = $(`<div class="image"></div>`);
+        mainElm.append(imgDivElm);
+    })
+
+
+}
 
 
 
