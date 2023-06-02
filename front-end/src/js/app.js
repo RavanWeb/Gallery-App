@@ -1,5 +1,5 @@
 const overlay = $("#overlay"), mainElm = $('main'), btnUpload = $("#btn-upload"),dropZone=$('#drop-zone');
-const cssLoaderHtml =$(`<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>`);
+const cssLoaderHtml =`<div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>`;
 
 btnUpload.on("click", () => {
     overlay.removeClass("d-none")
@@ -31,10 +31,21 @@ dropZone.on('drop',(e)=>{
 })
 
 function uploadImages(imageFiles){
+    const formData = new FormData();
     imageFiles.forEach(imageFile=>{
-        const imgDivElm = $(`<div class="image"></div>`);
+        const imgDivElm = $(`<div class="image loader"></div>`);
+        imgDivElm.append(cssLoaderHtml);
         mainElm.append(imgDivElm);
+
+        formData.append("images", imageFile);
     })
+    const jqxhr = $.ajax("http://localhost:8080/gallery/images",{
+        method: 'POST',
+        data: formData,
+
+    });
+    jqxhr.done(()=>{});
+    jqxhr.fail(()=>{});
 
 
 }
