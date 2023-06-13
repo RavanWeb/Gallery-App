@@ -1,16 +1,22 @@
-13073
-65/home/rasiya/Desktop/Gallery-App/front-end/dist/index.59a40e7a.js1685677290243171321 0
-69/home/rasiya/Desktop/Gallery-App/front-end/dist/index.bb9d3ade.js.map1685676733751530406 0
-58/home/rasiya/Desktop/Gallery-App/front-end/dist/index.html1685676733719535919 0
-66/home/rasiya/Desktop/Gallery-App/front-end/dist/index.ab0485ab.css1685676733759529028 0
-70/home/rasiya/Desktop/Gallery-App/front-end/dist/index.6c56cf43.css.map1685676733751530406 0
-47/home/rasiya/Desktop/Gallery-App/front-end/dist1685677290243171321 1
-56/home/rasiya/Desktop/Gallery-App/front-end/src/js/app.js1685677290139174844 0
-49/home/rasiya/Desktop/Gallery-App/front-end/src/js1685677290155174302 1
-57/home/rasiya/Desktop/Gallery-App/front-end/src/index.html1685637312939886869 0
-63/home/rasiya/Desktop/Gallery-App/front-end/src/scss/styles.scss1685637705076890119 0
-51/home/rasiya/Desktop/Gallery-App/front-end/src/scss1685637705092890319 1
-46/home/rasiya/Desktop/Gallery-App/front-end/src1685637312943886920 1
+13083
+65/home/rasiya/Desktop/Gallery-App/front-end/dist/index.59a40e7a.js1685693379060373874 0
+65/home/rasiya/Desktop/Gallery-App/front-end/dist/index.64082d77.js1685693031281019495 0
+66/home/rasiya/Desktop/Gallery-App/front-end/dist/index.9db4f9e6.css1685693031281019495 0
+69/home/rasiya/Desktop/Gallery-App/front-end/dist/index.bb9d3ade.js.map1685693379088374229 0
+58/home/rasiya/Desktop/Gallery-App/front-end/dist/index.html1685693379088374229 0
+65/home/rasiya/Desktop/Gallery-App/front-end/dist/index.793fe291.js1685693031281019495 0
+69/home/rasiya/Desktop/Gallery-App/front-end/dist/index.64082d77.js.map1685693031301019557 0
+66/home/rasiya/Desktop/Gallery-App/front-end/dist/index.ab0485ab.css1685693379060373874 0
+70/home/rasiya/Desktop/Gallery-App/front-end/dist/index.6c56cf43.css.map1685693379080374128 0
+70/home/rasiya/Desktop/Gallery-App/front-end/dist/index.b57e5187.css.map1685693031301019557 0
+69/home/rasiya/Desktop/Gallery-App/front-end/dist/index.793fe291.js.map1685693031301019557 0
+47/home/rasiya/Desktop/Gallery-App/front-end/dist1685693396132591489 1
+56/home/rasiya/Desktop/Gallery-App/front-end/src/js/app.js1685692829953670066 0
+49/home/rasiya/Desktop/Gallery-App/front-end/src/js1685692829969669882 1
+57/home/rasiya/Desktop/Gallery-App/front-end/src/index.html1685693378084361469 0
+63/home/rasiya/Desktop/Gallery-App/front-end/src/scss/styles.scss1685693395984589597 0
+51/home/rasiya/Desktop/Gallery-App/front-end/src/scss1685693395996589750 1
+46/home/rasiya/Desktop/Gallery-App/front-end/src1685693378088361520 1
 75/home/rasiya/Desktop/Gallery-App/front-end/node_modules/nth-check/README.md1685630543087164312 0
 80/home/rasiya/Desktop/Gallery-App/front-end/node_modules/nth-check/lib/parse.d.ts1685630543147166094 0
 80/home/rasiya/Desktop/Gallery-App/front-end/node_modules/nth-check/lib/index.d.ts1685630543135165738 0
@@ -1087,7 +1093,7 @@
 77/home/rasiya/Desktop/Gallery-App/front-end/node_modules/picomatch/lib/scan.js1685630542907158966 0
 69/home/rasiya/Desktop/Gallery-App/front-end/node_modules/picomatch/lib1685630542927159560 1
 78/home/rasiya/Desktop/Gallery-App/front-end/node_modules/picomatch/CHANGELOG.md1685630542979161104 0
-70/home/rasiya/Desktop/Gallery-App/front-end/dist/index.ab0485ab.css.map1685676733763528339 0
+70/home/rasiya/Desktop/Gallery-App/front-end/dist/index.ab0485ab.css.map1685693379068373975 0
 73/home/rasiya/Desktop/Gallery-App/front-end/node_modules/picomatch/LICENSE1685630542727153625 0
 65/home/rasiya/Desktop/Gallery-App/front-end/node_modules/picomatch1685630542991161460 1
 88/home/rasiya/Desktop/Gallery-App/front-end/node_modules/postcss-value-parser/lib/walk.js1685630542887158373 0
@@ -2841,7 +2847,7 @@
 92/home/rasiya/Desktop/Gallery-App/front-end/node_modules/caniuse-lite/data/features/webusb.js1685630544135195455 0
 111/home/rasiya/Desktop/Gallery-App/front-end/node_modules/csso/node_modules/css-tree/lib/syntax/scope/selector.js1685630543951189985 0
 110/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/domelementtype@2.3.0/node_modules/domelementtype1685630249452809049 1
-66/home/rasiya/Desktop/Gallery-App/front-end/dist/index.6c56cf43.css1685676733743531784 0
+66/home/rasiya/Desktop/Gallery-App/front-end/dist/index.6c56cf43.css1685693379072374026 0
 73/home/rasiya/Desktop/Gallery-App/front-end/node_modules/csso/package.json1685630543639180714 0
 98/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/parse-json@5.2.0/node_modules/@babel1685630249336807904 1
 112/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@swc+core@1.3.61/node_modules/@swc/core/index.d.ts1685630249492809444 0
@@ -3825,6 +3831,7 @@
 114/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@parcel+profiler@2.9.1/node_modules/@parcel/profiler1685630249360808140 1
 132/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/caniuse-lite@1.0.30001492/node_modules/caniuse-lite/data/regions/MU.js1685630223688593719 0
 143/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/bootstrap@5.3.0_@popperjs+core@2.11.8/node_modules/bootstrap/js/dist/alert.js.map1685630142052506341 0
+66/home/rasiya/Desktop/Gallery-App/front-end/dist/index.96498ebe.css1685693031281019495 0
 84/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@parcel+profiler@2.9.11685630249220806758 1
 106/home/rasiya/Desktop/Gallery-App/front-end/node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers1685630542783155287 1
 74/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/semver@5.7.11685630249220806758 1
@@ -6031,7 +6038,7 @@
 84/home/rasiya/Desktop/Gallery-App/front-end/node_modules/@parcel/workers/src/child.js1685630542931159679 0
 108/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/has-flag@3.0.0/node_modules/has-flag/readme.md1685630246168777239 0
 101/home/rasiya/Desktop/Gallery-App/front-end/node_modules/@parcel/optimizer-htmlnano/lib/svgMappings.js1685630542867157780 0
-66/home/rasiya/Desktop/Gallery-App/front-end/dist/index.044e704e.css1685676733759529028 0
+66/home/rasiya/Desktop/Gallery-App/front-end/dist/index.044e704e.css1685693396128591438 0
 130/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/escape-string-regexp@1.0.5/node_modules/escape-string-regexp/license1680147115223284854 0
 117/home/rasiya/Desktop/Gallery-App/front-end/node_modules/@parcel/core/test/fixtures/invalid-target-source-not-file/src1685630543635180595 1
 117/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/mdn-data@2.0.14/node_modules/mdn-data/css/at-rules.json1685630236808693460 0
@@ -7510,7 +7517,7 @@
 148/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/browserslist@4.21.7/node_modules/browserslist/node_modules/.bin/update-browserslist-db1685630415735729237 0
 107/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/is-json@2.0.1/node_modules/is-json/.npmignore1685630227840622993 0
 121/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@parcel+graph@2.9.1/node_modules/@parcel/graph/src/index.js1685630197924461860 0
-69/home/rasiya/Desktop/Gallery-App/front-end/dist/index.59a40e7a.js.map1685677290243171321 0
+69/home/rasiya/Desktop/Gallery-App/front-end/dist/index.59a40e7a.js.map1685693379068373975 0
 105/home/rasiya/Desktop/Gallery-App/front-end/node_modules/caniuse-lite/data/features/background-img-opts.js1685630543423174296 0
 154/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@popperjs+core@2.11.8/node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js1685630141656508466 0
 100/home/rasiya/Desktop/Gallery-App/front-end/node_modules/bootstrap/scss/helpers/_visually-hidden.scss1685630544111194742 0
@@ -8327,6 +8334,7 @@
 75/home/rasiya/Desktop/Gallery-App/front-end/node_modules/jquery/src/event.js1685630543411173939 0
 119/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/ordered-binary@1.4.0/node_modules/ordered-binary/index.js1685630232724660161 0
 109/home/rasiya/Desktop/Gallery-App/front-end/node_modules/@parcel/optimizer-svgo/node_modules/csso/CHANGELOG.md1685630543495176435 0
+66/home/rasiya/Desktop/Gallery-App/front-end/dist/index.b57e5187.css1685693031281019495 0
 125/home/rasiya/Desktop/Gallery-App/front-end/node_modules/@parcel/package-manager/test/fixtures/packages/peers-2.0/package.json1685630543499176554 0
 86/home/rasiya/Desktop/Gallery-App/front-end/node_modules/csso/lib/clean/TypeSelector.js1685630543607179763 0
 114/home/rasiya/Desktop/Gallery-App/front-end/node_modules/@swc/helpers/_/_unsupported_iterable_to_array/package.json1685630544047192838 0
@@ -8636,6 +8644,7 @@
 139/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@parcel+codeframe@2.9.1/node_modules/@parcel/codeframe/test/codeframe.test.js1685630218276558813 0
 122/home/rasiya/Desktop/Gallery-App/front-end/node_modules/css-select/node_modules/entities/lib/generated/decode-data-html.js1685630542999161697 0
 137/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@parcel+codeframe@2.9.1/node_modules/@parcel/codeframe/lib/codeframe.js.map1685630219764568038 0
+70/home/rasiya/Desktop/Gallery-App/front-end/dist/index.96498ebe.css.map1685693031301019557 0
 120/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@parcel+codeframe@2.9.1/node_modules/@parcel/codeframe/src1685630249552810037 1
 143/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/caniuse-lite@1.0.30001492/node_modules/caniuse-lite/data/features/font-loading.js1685630223496592420 0
 133/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@parcel+codeframe@2.9.1/node_modules/@parcel/codeframe/src/codeframe.js1685630218272558788 0
@@ -10207,6 +10216,7 @@
 147/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@popperjs+core@2.11.8/node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js.flow1685630141628508618 0
 139/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@swc+helpers@0.5.1/node_modules/@swc/helpers/_/_unsupported_iterable_to_array1685630249520809721 1
 131/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@popperjs+core@2.11.8/node_modules/@popperjs/core/lib/createPopper.js1685630140304515874 0
+70/home/rasiya/Desktop/Gallery-App/front-end/dist/index.9db4f9e6.css.map1685693031301019557 0
 85/home/rasiya/Desktop/Gallery-App/front-end/node_modules/svgo/plugins/removeViewBox.js1685630543519177149 0
 141/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@parcel+watcher@2.1.0/node_modules/@parcel/watcher/src/macos/FSEventsBackend.cc1685630249540809918 0
 143/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@swc+helpers@0.5.1/node_modules/@swc/helpers/src/_check_private_redeclaration.mjs1685630219732567837 0
@@ -11085,7 +11095,7 @@
 138/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/caniuse-lite@1.0.30001492/node_modules/caniuse-lite/data/features/portals.js1685630223756594180 0
 140/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/animate.css@4.1.1/node_modules/animate.css/source/fading_exits/fadeOutLeft.css1685630139860518369 0
 138/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/animate.css@4.1.1/node_modules/animate.css/source/fading_exits/fadeOutUp.css1685630139868518323 0
-70/home/rasiya/Desktop/Gallery-App/front-end/dist/index.044e704e.css.map1685676733763528339 0
+70/home/rasiya/Desktop/Gallery-App/front-end/dist/index.044e704e.css.map1685693396132591489 0
 108/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@parcel+markdown-ansi@2.9.1/node_modules/chalk1685630249492809444 0
 151/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/animate.css@4.1.1/node_modules/animate.css/source/rotating_entrances/rotateInDownLeft.css1685630139872518300 0
 138/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/caniuse-lite@1.0.30001492/node_modules/caniuse-lite/data/features/outline.js1685630223748594126 0
@@ -11593,7 +11603,7 @@
 123/home/rasiya/Desktop/Gallery-App/front-end/node_modules/@parcel/optimizer-svgo/node_modules/css-tree/lib/lexer/structure.js1685630543791185231 0
 77/home/rasiya/Desktop/Gallery-App/front-end/node_modules/@parcel/types/LICENSE1685630542759154574 0
 128/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@swc+helpers@0.5.1/node_modules/@swc/helpers/cjs/_create_super.cjs1685630219600567011 0
-65/home/rasiya/Desktop/Gallery-App/front-end/dist/index.bb9d3ade.js1685676733743531784 0
+65/home/rasiya/Desktop/Gallery-App/front-end/dist/index.bb9d3ade.js1685693379088374229 0
 150/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@swc+helpers@0.5.1/node_modules/@swc/helpers/cjs/_class_apply_descriptor_destructure.cjs1685630219592566961 0
 128/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@swc+helpers@0.5.1/node_modules/@swc/helpers/cjs/_ts_generator.cjs1685630219632567212 0
 143/home/rasiya/Desktop/Gallery-App/front-end/node_modules/.pnpm/@swc+helpers@0.5.1/node_modules/@swc/helpers/cjs/_check_private_redeclaration.cjs1685630219592566961 0
